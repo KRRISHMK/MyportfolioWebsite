@@ -1,0 +1,31 @@
+.Greeting{
+    display: none;
+    margin-bottom:-20px;
+    background-color: #0000ff;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 30px 30px 2px 30px;
+    font-family: 'Poppins';
+    text-align: center;
+    margin-right: 55px;
+    font-weight: 600;
+}
+.chatbot{
+    padding-bottom: 50px;
+}
+.chatbot:hover .Greeting{
+    display: block;
+}
+.react-chat-viewerBox{
+    border-radius: 15px;
+}
+.react-chat-messagesListContent{
+    padding: 0px !important;
+}
+.react-chat-notification{
+    font-family: 'Poppins';
+    background-color: #0000ff;
+    padding: 10px !important;
+    color: #fff;
+    font-weight: 600;
+}
